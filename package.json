@@ -13,7 +13,7 @@
     "typescript"
   ],
   "files": [
-    "lib/index.js"
+    "lib"
   ],
   "author": "Bence Knáb <benceknab@pm.me>",
   "license": "ISC",
