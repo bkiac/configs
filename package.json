@@ -1,0 +1,43 @@
+{
+  "name": "@bkiac/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkiac/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript"
+  ],
+  "files": [
+    "lib/index.js"
+  ],
+  "author": "Bence Knáb <benceknab@pm.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkiac/eslint-config/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "prettier-plugin-organize-imports": "^1.1.1",
+    "prettier-plugin-packagejson": "^2.2.5",
+    "prettier-plugin-sh": "^0.4.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.7",
+    "typescript": "^3.9.6"
+  },
+  "homepage": "https://github.com/bkiac/eslint-config#readme"
+}
