@@ -1,13 +1,16 @@
 module.exports = {
   extends: [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+
     "airbnb-typescript",
     "airbnb/hooks",
-
-    "./base.js",
 
     "prettier",
     "prettier/react",
     "prettier/@typescript-eslint",
+
+    "./base.js",
   ],
 
   env: {

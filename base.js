@@ -16,8 +16,9 @@ module.exports = {
   rules: {
     "lines-between-class-members": ["error", "always", { exceptAfterSingleLine: true }],
     "no-console": "error",
-    "no-underscore-dangle": "off",
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
+    "no-underscore-dangle": "off",
+    "no-void": "off",
 
     "import/prefer-default-export": "off",
     "import/no-anonymous-default-export": "error",
