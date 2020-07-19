@@ -34,14 +34,23 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
+        allowExpressions: false,
+        allowTypedFunctionExpressions: true,
+        allowHigherOrderFunctions: true,
+        allowConciseArrowFunctionExpressionsStartingWithVoid: true,
+      },
+    ],
+    "@typescript-eslint/explicit-member-accessibility": ["error", { accessibility: "explicit" }],
+    "@typescript-eslint/explicit-module-boundary-types": [
+      "error", 
+      { 
         allowArgumentsExplicitlyTypedAsAny: false,
         allowDirectConstAssertionInArrowFunctions: true,
         allowedNames: [],
         allowHigherOrderFunctions: true,
         allowTypedFunctionExpressions: true,
-      },
+      }
     ],
-    "@typescript-eslint/explicit-member-accessibility": ["error", { accessibility: "explicit" }],
     "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/method-signature-style": "error",
     "@typescript-eslint/naming-convention": "error",
@@ -49,7 +58,7 @@ module.exports = {
     "@typescript-eslint/no-confusing-non-null-assertion": "error",
     "@typescript-eslint/no-dynamic-delete": "error",
     "@typescript-eslint/no-extraneous-class": "error",
-    "@typescript-eslint/no-invalid-void-type": "error",
+    "@typescript-eslint/no-invalid-void- type": "error",
     "@typescript-eslint/no-parameter-properties": "error",
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-throw-literal": "error",
