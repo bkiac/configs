@@ -31,15 +31,16 @@ module.exports = {
       { assertionStyle: "as", objectLiteralTypeAssertions: "never" },
     ],
     "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
-    // Use `@typescript-eslint/explicit-module-boundary-types` defaults instead of this rule.
-    // "@typescript-eslint/explicit-function-return-type": [
-    //   "error",
-    //   {
-    //     allowExpressions: true,
-    //     allowTypedFunctionExpressions: true,
-    //     allowHigherOrderFunctions: true,
-    //   },
-    // ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        allowArgumentsExplicitlyTypedAsAny: false,
+        allowDirectConstAssertionInArrowFunctions: true,
+        allowedNames: [],
+        allowHigherOrderFunctions: true,
+        allowTypedFunctionExpressions: true,
+      },
+    ],
     "@typescript-eslint/explicit-member-accessibility": ["error", { accessibility: "explicit" }],
     "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/method-signature-style": "error",
