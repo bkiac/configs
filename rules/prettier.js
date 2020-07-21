@@ -1,3 +1,5 @@
 module.exports = {
-  "prettier/prettier": "error",
+  rules: {
+    "prettier/prettier": "error",
+  },
 };

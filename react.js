@@ -11,6 +11,8 @@ module.exports = {
     "prettier/@typescript-eslint",
 
     "./base.js",
+
+    "./rules/react.js",
   ],
 
   env: {
@@ -24,9 +26,4 @@ module.exports = {
   },
 
   plugins: ["react-hooks"],
-
-  rules: {
-    "react/prop-types": "off",
-    "react/jsx-props-no-spreading": "off",
-  },
 };
