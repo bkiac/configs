@@ -1,5 +1,23 @@
 module.exports = {
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx", ".json"],
+      },
+    },
+  },
+
   rules: {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        ts: "never",
+        tsx: "never",
+        js: "never",
+        jsx: "never",
+      },
+    ],
     "import/prefer-default-export": "off",
     "import/no-anonymous-default-export": "error",
     "import/no-extraneous-dependencies": [
