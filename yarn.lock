@@ -37,9 +37,9 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "14.0.23"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
-  integrity sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
+  version "14.0.24"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.24.tgz#b0f86f58564fa02a28b68f8b55d4cdec42e3b9d6"
+  integrity sha512-btt/oNOiDWcSuI721MdL8VQGnjsKjlTMdrKyTcLCKeQp/n4AAMFJ961wMbp+09y8WuGPClDEv07RIItdXKIXAA==
 
 array-union@^2.1.0:
   version "2.1.0"
@@ -256,10 +256,10 @@ prettier-plugin-packagejson@^2.2.5:
   dependencies:
     sort-package-json "1.44.0"
 
-prettier-plugin-sh@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-sh/-/prettier-plugin-sh-0.4.0.tgz#32e64f9d4c168045e27b4c4a815283eba4c398ff"
-  integrity sha512-Ehr+U+vunB0IwrgTR4iCYCka2BMI3We+Hpejm61JURnytOk9QjHyC9CwCS+zoVMMTnCEM/PMXKAUoVcoY87sYg==
+prettier-plugin-sh@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-sh/-/prettier-plugin-sh-0.5.0.tgz#84fc56242b3fcd54c06250479c0a8f5cb35f04aa"
+  integrity sha512-i06bh7jINWXLcVjiJTnJtBmTbrA/S1waFhbtG0YFLbTIxnvI7cDWM2pAqfNf8SEsT+yB6sTkJDaPGT4ip2lFWw==
   dependencies:
     mvdan-sh "^0.5.0"
 
