@@ -21,7 +21,8 @@
   "files": [
     "index.js",
     "base.js",
-    "react.js"
+    "react.js",
+    "rules"
   ],
   "devDependencies": {
     "prettier": "^2.0.5",
