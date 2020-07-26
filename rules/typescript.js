@@ -15,7 +15,7 @@ module.exports = {
         allowConciseArrowFunctionExpressionsStartingWithVoid: true,
       },
     ],
-    "@typescript-eslint/explicit-member-accessibility": ["error", { accessibility: "explicit" }],
+    "@typescript-eslint/explicit-member-accessibility": ["error", { accessibility: "no-public" }],
     "@typescript-eslint/explicit-module-boundary-types": [
       "error",
       {
@@ -26,6 +26,7 @@ module.exports = {
         allowTypedFunctionExpressions: true,
       },
     ],
+    "@typescript-eslint/lines-between-class-members": ["error", { exceptAfterSingleLine: true }],
     "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/method-signature-style": "error",
     "@typescript-eslint/naming-convention": "error",
