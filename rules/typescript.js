@@ -9,7 +9,7 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
-        allowExpressions: false,
+        allowExpressions: true,
         allowTypedFunctionExpressions: true,
         allowHigherOrderFunctions: true,
         allowConciseArrowFunctionExpressionsStartingWithVoid: true,
