@@ -55,7 +55,7 @@ module.exports = {
       "error",
       { ignoreArgsIfArgsAfterAreUsed: true },
     ],
-    "@typescript-eslint/prefer-for-of": "error",
+    "@typescript-eslint/prefer-for-of": "off",
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/prefer-literal-enum-member": "error",
