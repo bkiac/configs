@@ -5,7 +5,7 @@ module.exports = {
       "error",
       { assertionStyle: "as", objectLiteralTypeAssertions: "never" },
     ],
-    "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
