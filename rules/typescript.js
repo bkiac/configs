@@ -53,6 +53,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-invalid-void-type": "error",
+    "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-parameter-properties": "error",
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-throw-literal": "error",
