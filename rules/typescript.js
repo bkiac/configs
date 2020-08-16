@@ -15,7 +15,7 @@ module.exports = {
       "error",
       { assertionStyle: "as", objectLiteralTypeAssertions: "never" },
     ],
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
@@ -43,6 +43,12 @@ module.exports = {
     "@typescript-eslint/no-base-to-string": "error",
     "@typescript-eslint/no-confusing-non-null-assertion": "error",
     "@typescript-eslint/no-dynamic-delete": "error",
+    "@typescript-eslint/no-empty-interface": [
+      "error",
+      {
+        allowSingleExtends: true,
+      },
+    ],
     "@typescript-eslint/no-extraneous-class": [
       "error",
       {
