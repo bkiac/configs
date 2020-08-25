@@ -7,6 +7,6 @@ module.exports = {
     "no-unexpected-multiline": "error",
     "no-underscore-dangle": "off",
     "no-void": "off",
-    semi: ["error", { beforeStatementContinuationChars: "never" }],
+    semi: ["error", "never", { beforeStatementContinuationChars: "never" }],
   },
 };
