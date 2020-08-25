@@ -25,23 +25,23 @@
     "rules"
   ],
   "devDependencies": {
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.0",
     "prettier-plugin-organize-imports": "^1.1.1",
     "prettier-plugin-packagejson": "^2.2.5",
     "prettier-plugin-sh": "^0.5.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
-    "eslint": "^7.5.0",
-    "eslint-config-airbnb-typescript": "^9.0.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "typescript": "^3.9.7"
+    "@typescript-eslint/eslint-plugin": "3.x",
+    "@typescript-eslint/parser": "3.x",
+    "eslint": "7.x",
+    "eslint-config-airbnb-typescript": "9.x",
+    "eslint-config-prettier": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x",
+    "typescript": "4.x"
   }
 }
