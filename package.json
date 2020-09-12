@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-bkiac",
 	"version": "5.0.1",
-	"description": "",
+	"description": "ESLint Config from Bence Knáb",
 	"keywords": [
 		"eslint",
 		"eslint-config",
