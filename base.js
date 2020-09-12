@@ -1,23 +1,23 @@
 module.exports = {
-  plugins: ["@typescript-eslint", "import", "prettier"],
+	plugins: ["@typescript-eslint", "import", "prettier"],
 
-  extends: [
-    "airbnb-typescript/base",
+	extends: [
+		"airbnb-typescript/base",
 
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
 
-    "./rules/native.js",
-    "./rules/import.js",
-    "./rules/typescript.js",
+		"./rules/native.js",
+		"./rules/import.js",
+		"./rules/typescript.js",
 
-    "prettier",
-    "prettier/@typescript-eslint",
-  ],
+		"prettier",
+		"prettier/@typescript-eslint",
+	],
 
-  parser: "@typescript-eslint/parser",
+	parser: "@typescript-eslint/parser",
 
-  env: {
-    node: true,
-  },
-};
+	env: {
+		node: true,
+	},
+}
