@@ -1,29 +1,31 @@
 module.exports = {
-  extends: [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+  plugins: ["@typescript-eslint", "import", "prettier", "react-hooks"],
 
+  extends: [
     "airbnb-typescript",
     "airbnb/hooks",
 
-    "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
 
-    "./base.js",
-
+    "./rules/native.js",
+    "./rules/import.js",
+    "./rules/typescript.js",
     "./rules/react.js",
+
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/react",
   ],
 
-  env: {
-    browser: true,
-  },
-
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
   },
 
-  plugins: ["react-hooks"],
+  env: {
+    browser: true,
+  },
 };
