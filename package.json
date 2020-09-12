@@ -7,13 +7,13 @@
 		"eslint-config",
 		"typescript"
 	],
-	"homepage": "https://github.com/bkiac/eslint-config#readme",
+	"homepage": "https://github.com/bkiac/eslint-config-bkiac#readme",
 	"bugs": {
-		"url": "https://github.com/bkiac/eslint-config/issues"
+		"url": "https://github.com/bkiac/eslint-config-bkiac/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bkiac/eslint-config.git"
+		"url": "git+https://github.com/bkiac/eslint-config-bkiac.git"
 	},
 	"license": "ISC",
 	"author": "Bence Knáb <benceknab@pm.me>",
