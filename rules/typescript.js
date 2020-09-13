@@ -272,6 +272,6 @@ module.exports = {
 		"@typescript-eslint/require-await": "error",
 
 		"no-return-await": "off",
-		"@typescript-eslint/require-await": "error",
+		"@typescript-eslint/return-await": "error",
 	},
 }
