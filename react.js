@@ -1,5 +1,5 @@
 module.exports = {
-	plugins: ["@typescript-eslint", "import", "prettier", "react-hooks"],
+	plugins: ["@typescript-eslint", "import", "react-hooks"],
 
 	extends: [
 		"airbnb-typescript",
@@ -16,6 +16,8 @@ module.exports = {
 		"prettier",
 		"prettier/@typescript-eslint",
 		"prettier/react",
+
+		"./rules/prettier-override.js",
 	],
 
 	parser: "@typescript-eslint/parser",

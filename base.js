@@ -1,5 +1,5 @@
 module.exports = {
-	plugins: ["@typescript-eslint", "import", "prettier"],
+	plugins: ["@typescript-eslint", "import"],
 
 	extends: [
 		"airbnb-typescript/base",
@@ -13,6 +13,8 @@ module.exports = {
 
 		"prettier",
 		"prettier/@typescript-eslint",
+
+		"./rules/prettier-override.js",
 	],
 
 	parser: "@typescript-eslint/parser",
