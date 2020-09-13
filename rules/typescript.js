@@ -265,6 +265,9 @@ module.exports = {
 			{ exceptAfterSingleLine: true, exceptAfterOverload: true },
 		],
 
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": "error",
+
 		"require-await": "off",
 		"@typescript-eslint/require-await": "error",
 
