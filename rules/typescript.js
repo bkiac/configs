@@ -3,7 +3,7 @@ module.exports = {
 	rules: {
 		"@typescript-eslint/adjacent-overload-signatures": "error",
 
-		"@typescript-eslint/array-type": ["error", { default: "array-simple" }],
+		"@typescript-eslint/array-type": ["error", { default: "array" }],
 
 		"@typescript-eslint/await-thenable": "error",
 
