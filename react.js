@@ -1,4 +1,15 @@
 module.exports = {
+	parser: "@typescript-eslint/parser",
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true,
+		},
+	},
+
+	env: {
+		browser: true,
+	},
+
 	plugins: ["@typescript-eslint", "import", "react-hooks"],
 
 	extends: [
@@ -14,20 +25,7 @@ module.exports = {
 		"./rules/react.js",
 
 		"prettier",
-		"prettier/@typescript-eslint",
-		"prettier/react",
 
 		"./rules/prettier-override.js",
 	],
-
-	parser: "@typescript-eslint/parser",
-	parserOptions: {
-		ecmaFeatures: {
-			jsx: true,
-		},
-	},
-
-	env: {
-		browser: true,
-	},
 }

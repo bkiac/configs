@@ -1,4 +1,10 @@
 module.exports = {
+	parser: "@typescript-eslint/parser",
+
+	env: {
+		node: true,
+	},
+
 	plugins: ["@typescript-eslint", "import"],
 
 	extends: [
@@ -12,14 +18,7 @@ module.exports = {
 		"./rules/typescript.js",
 
 		"prettier",
-		"prettier/@typescript-eslint",
 
 		"./rules/prettier-override.js",
 	],
-
-	parser: "@typescript-eslint/parser",
-
-	env: {
-		node: true,
-	},
 }
