@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-bkiac",
 	"version": "7.0.0",
-	"description": "ESLint Config from Bence Knáb",
+	"description": "Ben Knáb's ESLint config",
 	"keywords": [
 		"eslint",
 		"eslint-config",
@@ -16,7 +16,7 @@
 		"url": "git+https://github.com/bkiac/eslint-config-bkiac.git"
 	},
 	"license": "ISC",
-	"author": "Bence Knáb <benceknab@pm.me>",
+	"author": "Ben Knáb <benknab@pm.me>",
 	"main": "index.js",
 	"files": [
 		"index.js",
