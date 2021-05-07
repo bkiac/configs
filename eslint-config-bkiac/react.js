@@ -1,17 +1,5 @@
 module.exports = {
-	parser: "@typescript-eslint/parser",
-	parserOptions: {
-		ecmaFeatures: {
-			jsx: true,
-		},
-	},
-
-	env: {
-		browser: true,
-	},
-
 	plugins: ["@typescript-eslint", "import", "react-hooks"],
-
 	extends: [
 		"airbnb-typescript",
 		"airbnb/hooks",

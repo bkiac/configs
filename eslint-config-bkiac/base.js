@@ -1,12 +1,5 @@
 module.exports = {
-	parser: "@typescript-eslint/parser",
-
-	env: {
-		node: true,
-	},
-
 	plugins: ["@typescript-eslint", "import"],
-
 	extends: [
 		"airbnb-typescript/base",
 
