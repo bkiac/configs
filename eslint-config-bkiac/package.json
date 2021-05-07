@@ -1,23 +1,9 @@
 {
 	"name": "eslint-config-bkiac",
 	"version": "7.0.0",
-	"description": "Ben Knáb's ESLint config",
-	"keywords": [
-		"eslint",
-		"eslint-config",
-		"typescript"
-	],
-	"homepage": "https://github.com/bkiac/eslint-config-bkiac#readme",
-	"bugs": {
-		"url": "https://github.com/bkiac/eslint-config-bkiac/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/bkiac/eslint-config-bkiac.git"
-	},
-	"license": "ISC",
-	"author": "Ben Knáb <benknab@pm.me>",
 	"main": "index.js",
+	"author": "Ben Knáb <benknab@pm.me>",
+	"license": "MIT",
 	"files": [
 		"index.js",
 		"base.js",
