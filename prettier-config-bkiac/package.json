@@ -1,19 +1,7 @@
 {
 	"name": "prettier-config-bkiac",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"main": "index.js",
 	"author": "Ben Knáb <benknab@pm.me>",
-	"license": "MIT",
-	"peerDependencies": {
-		"prettier": "^2.2.1",
-		"prettier-plugin-organize-imports": "^2.0.0",
-		"prettier-plugin-packagejson": "^2.2.11",
-		"prettier-plugin-sh": "^0.6.1"
-	},
-	"devDependencies": {
-		"prettier": "^2.2.1",
-		"prettier-plugin-organize-imports": "^2.0.0",
-		"prettier-plugin-packagejson": "^2.2.11",
-		"prettier-plugin-sh": "^0.6.1"
-	}
+	"license": "MIT"
 }
