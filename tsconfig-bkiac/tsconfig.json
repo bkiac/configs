@@ -1,0 +1,15 @@
+{
+	"extends": "@tsconfig/recommended",
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true
+	}
+}
