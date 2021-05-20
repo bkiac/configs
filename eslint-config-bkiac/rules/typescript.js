@@ -79,7 +79,7 @@ module.exports = {
 			"error",
 			{ assertionStyle: "as", objectLiteralTypeAssertions: "never" },
 		],
-		"@typescript-eslint/consistent-type-definitions": "off",
+		"@typescript-eslint/consistent-type-definitions": "error",
 		"@typescript-eslint/consistent-type-imports": [
 			"error",
 			{
@@ -124,7 +124,7 @@ module.exports = {
 
 		"@typescript-eslint/no-dynamic-delete": "error",
 
-		"@typescript-eslint/no-empty-interface": "off",
+		"@typescript-eslint/no-empty-interface": "error",
 
 		"@typescript-eslint/no-explicit-any": [
 			"error",
