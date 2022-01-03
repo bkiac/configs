@@ -1,6 +1,6 @@
 {
 	"name": "prettier-config-bkiac",
-	"version": "2.1.1",
+	"version": "2.2.0",
 	"author": "Ben Knáb <bkiac@pm.me>",
 	"license": "MIT",
 	"main": "index.js",
