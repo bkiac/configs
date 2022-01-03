@@ -2,7 +2,7 @@
 	"name": "eslint-config-bkiac",
 	"version": "8.1.1",
 	"main": "index.js",
-	"author": "Ben Knáb <benknab@pm.me>",
+	"author": "Ben Knáb <bkiac@pm.me>",
 	"license": "MIT",
 	"files": [
 		"index.js",
@@ -11,7 +11,6 @@
 		"rules"
 	],
 	"scripts": {
-		"fix": "prettier --write .",
 		"test:base": "eslint -c tests/test-base.eslintrc.js tests/example.ts",
 		"test:react": "eslint -c tests/test-react.eslintrc.js tests/example.ts",
 		"test": "yarn test:base && yarn test:react"
