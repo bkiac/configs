@@ -1,9 +1,8 @@
 module.exports = {
-	// Supported Rules
 	rules: {
 		"@typescript-eslint/adjacent-overload-signatures": "error",
 
-		"@typescript-eslint/array-type": ["error", { default: "array" }],
+		"@typescript-eslint/array-type": ["error", {default: "array"}],
 
 		"@typescript-eslint/await-thenable": "error",
 
@@ -77,7 +76,7 @@ module.exports = {
 
 		"@typescript-eslint/consistent-type-assertions": [
 			"error",
-			{ assertionStyle: "as", objectLiteralTypeAssertions: "never" },
+			{assertionStyle: "as", objectLiteralTypeAssertions: "never"},
 		],
 		"@typescript-eslint/consistent-type-definitions": ["error", "type"],
 		"@typescript-eslint/consistent-type-imports": [
@@ -99,7 +98,7 @@ module.exports = {
 		],
 		"@typescript-eslint/explicit-member-accessibility": [
 			"error",
-			{ accessibility: "no-public" },
+			{accessibility: "no-public"},
 		],
 		"@typescript-eslint/explicit-module-boundary-types": [
 			"error",
@@ -178,7 +177,7 @@ module.exports = {
 
 		"@typescript-eslint/no-namespace": [
 			"error",
-			{ allowDeclarations: false, allowDefinitionFiles: false },
+			{allowDeclarations: false, allowDefinitionFiles: false},
 		],
 
 		"@typescript-eslint/no-non-null-asserted-optional-chain": "error",
@@ -254,7 +253,7 @@ module.exports = {
 
 		"@typescript-eslint/typedef": "off",
 
-		"@typescript-eslint/unbound-method": ["error", { ignoreStatic: true }],
+		"@typescript-eslint/unbound-method": ["error", {ignoreStatic: true}],
 
 		"@typescript-eslint/unified-signatures": "error",
 
@@ -262,7 +261,7 @@ module.exports = {
 		"lines-between-class-members": "off",
 		"@typescript-eslint/lines-between-class-members": [
 			"error",
-			{ exceptAfterSingleLine: true, exceptAfterOverload: true },
+			{exceptAfterSingleLine: true, exceptAfterOverload: true},
 		],
 
 		"no-unused-vars": "off",
