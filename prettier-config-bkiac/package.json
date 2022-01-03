@@ -1,9 +1,9 @@
 {
 	"name": "prettier-config-bkiac",
 	"version": "2.1.1",
-	"main": "index.js",
 	"author": "Ben Knáb <bkiac@pm.me>",
 	"license": "MIT",
+	"main": "index.js",
 	"peerDependencies": {
 		"prettier": "^2.5.1"
 	}

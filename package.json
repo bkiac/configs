@@ -10,6 +10,7 @@
 		"format:prettier": "prettier \"./**/*.{ts,js,json,md,yml,yaml}\""
 	},
 	"devDependencies": {
-		"prettier": "^2.5.1"
+		"prettier": "^2.5.1",
+		"prettier-plugin-pkg": "^0.11.1"
 	}
 }
