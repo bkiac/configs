@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-bkiac",
-	"version": "9.0.0",
+	"version": "9.0.1",
 	"author": "Ben Knáb <bkiac@pm.me>",
 	"license": "MIT",
 	"main": "index.js",
