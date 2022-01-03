@@ -1,6 +1,7 @@
 module.exports = {
 	plugins: ["@typescript-eslint", "import"],
 	extends: [
+		"airbnb",
 		"airbnb-typescript/base",
 
 		"plugin:@typescript-eslint/recommended",
